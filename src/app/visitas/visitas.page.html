@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-menu-button color = "primary">
+      </ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>Visitas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+
+  <ion-item>  
+    <ion-label>VISITAS EN ESPERA</ion-label>
+  </ion-item>  
+      <ion-card>
+        <img src="../../assets/cedula.jfif" />
+        <ion-card-header>
+          <ion-card-title>Maria Larrea</ion-card-title>
+          <ion-card-subtitle>16:10 - Puerta 2</ion-card-subtitle>
+          <ion-item>               
+          <ion-button fill="outline"   size='small' (click)="presentar()">
+            Autorizar
+          </ion-button>
+        
+          <ion-button color="success" fill="outline" size='small'>
+            Notificar
+          </ion-button>          
+          </ion-item>
+          
+        </ion-card-header>
+      </ion-card>
+      
+</ion-content>
